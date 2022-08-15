@@ -1,3 +1,11 @@
+use bevy::prelude::*;
+
+mod util;
+mod camera;
+
 fn main() {
-    println!("Hello, world!");
+	App::new()
+	.insert_resource(Msaa { samples: 4 })
+	.add_plugins(DefaultPlugins)
+	.run();
 }
