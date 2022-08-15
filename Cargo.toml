@@ -1,0 +1,10 @@
+[package]
+name = "fractal-conductor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.8"
+iyes_loopless = { git = "https://github.com/IyesGames/iyes_loopless.git", rev = "3c5ebad4ae24fb3f30f03acb607e80d934fa7ad7" }

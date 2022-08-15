@@ -1,0 +1,11 @@
+tasks:
+  - name: System Dependencies
+    before: sudo apt-get install -y g++ pkg-config libx11-dev libasound2-dev libudev-dev
+vscode:
+  extensions:
+    - bungcip.better-toml
+    - serayuzgur.crates
+    - oderwat.indent-rainbow
+    - esbenp.prettier-vscode
+    - matklad.rust-analyzer
+    - eamodio.gitlens
