@@ -12,9 +12,7 @@ leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-i
 bevy_egui = "0.15"
 
 num = "0.4.0"
-arrayvec = "0.7.2"
-nalgebra = "0.31.1"
-simba = "0.7.2"
+ndarray = "0.15.6"
 
 # Debugging Helpers
 bevy_prototype_debug_lines = "0.8"
