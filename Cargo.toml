@@ -13,6 +13,8 @@ bevy_egui = "0.15"
 
 num = "0.4.0"
 arrayvec = "0.7.2"
+nalgebra = "0.31.1"
+simba = "0.7.2"
 
 # Debugging Helpers
 bevy_prototype_debug_lines = "0.8"
