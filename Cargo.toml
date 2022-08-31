@@ -7,12 +7,12 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.8"
-iyes_loopless = { git = "https://github.com/IyesGames/iyes_loopless.git", rev = "3c5ebad4ae24fb3f30f03acb607e80d934fa7ad7" }
-leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-input-manager.git", rev = "b95dd21ccfa3665f27de862412ff4301f1f965ad" }
-bevy_egui = "0.15"
-
-num = "0.4.0"
-ndarray = "0.15.6"
+iyes_loopless = { git = "https://github.com/IyesGames/iyes_loopless.git", commit = "57411f98433795d56e1a5ba0c9fce080a6d7c805" }
+iyes_progress = { git = "https://github.com/IyesGames/iyes_progress.git", rev = "d0de750f13ac895d097acf2eacbee1835dcfd7cd" }
+leafwing-input-manager = { git = "https://github.com/Leafwing-Studios/leafwing-input-manager.git", commit = "ef037f90f18495750b20244585df7759909e7cfe" }
+bevy_egui = "0.16.0"
+num = "0.4"
+num-derive = "0.3"
 
 # Debugging Helpers
 bevy_prototype_debug_lines = "0.8"
